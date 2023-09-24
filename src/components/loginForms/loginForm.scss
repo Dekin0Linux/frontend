@@ -1,0 +1,20 @@
+.formContainer {
+  padding: 10px;
+  .form {
+    button {
+      width: 100%;
+    }
+  }
+  .signupOption {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+    h6 {
+      padding: 20px;
+    }
+  }
+}

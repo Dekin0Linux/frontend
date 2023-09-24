@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+.startPage {
+  background: url(../../assets/wei.jpg);
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  .startImage {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      font-size: 5rem;
+      color: $dark-bg;
+      text-shadow: 5px 5px 5px rgb(5, 61, 53);
+    }
+  }
+  .startForm {
+    height: 450px;
+    padding: 40px;
+    background-color: $main-color;
+    box-shadow: 5px 10px 15px rgb(5, 61, 53);
+  }
+}

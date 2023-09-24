@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 10px;
+  .logo {
+    letter-spacing: -2px;
+  }
+}
