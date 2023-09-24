@@ -29,7 +29,7 @@ const profileStore = create((set) => ({
 
   getProfiles: async () => {
     try {
-      const response = await axios.get('/profiles'); // Assuming you have an endpoint for profiles
+      const response = await axios.get('https://test-pwvq.onrender.com/profiles'); // Assuming you have an endpoint for profiles
       set({ profiles: response.data.profiles });
     } catch (error) {
       console.log(error.message);
